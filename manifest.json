@@ -1,0 +1,40 @@
+{
+  "manifest_version": 1,
+  "version": "1.4.0",
+  "target_applications": ["ALL"],
+  "impacted_applications": ["SCHEDULER"],
+  "name": {
+    "ja": "アンケートプラグイン",
+    "en": "Schedule History Plug-In",
+    "zh": "问卷调查插件"
+  },
+  "description": {
+    "en": "This plug-in allows you to record the schedule change history"
+  },
+  "icon": "src/assets/images/icon.png",
+  "desktop": {
+    "js": [
+      "build/Garoon-Sample-plugin-v1.0.0-desktop.js"
+    ]
+  },
+  "homepage_url": {
+    
+  },
+  "config": {
+    "html": "src/config/html/index.html",
+    "js": [
+      "build/Garoon-Sample-plugin-v1.0.0-config.js"
+    ]
+  },
+  "provider": {
+    "en":{
+      "name": "Cybozu, Inc.",
+      "url": "https://cybozu.co.jp/"
+    },
+    "ja": {
+      "name": "サイボウズ株式会社",
+      "url": "https://cybozu.co.jp/"
+    }
+  },
+  "plugin_code": "h000780GaroonScheduleHistory"
+}

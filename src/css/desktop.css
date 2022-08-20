@@ -1,0 +1,11 @@
+.history_grn_user {
+    margin: 0 7px 3px 0;
+    display: inline-block;
+    white-space: nowrap;
+}
+.history_drawer {
+}
+.history_changed_field {
+    color: #888;
+    margin-right: 4px;
+}
